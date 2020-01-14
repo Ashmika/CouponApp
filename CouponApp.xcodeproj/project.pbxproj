@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60DC8B8239CD668003E1D23 /* redeem_points.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DC8B7239CD668003E1D23 /* redeem_points.png */; };
+		E60DC8BA239CD7CD003E1D23 /* 3507746-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DC8B9239CD7CD003E1D23 /* 3507746-32.png */; };
+		E60DC8BC239CD7D4003E1D23 /* 3507746-48.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DC8BB239CD7D4003E1D23 /* 3507746-48.png */; };
+		E60DC8BE239CDA2D003E1D23 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DC8BD239CDA2C003E1D23 /* logout.png */; };
+		E60DC8C0239CFF6A003E1D23 /* CouponVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC8BF239CFF6A003E1D23 /* CouponVC.swift */; };
+		E60DC8C2239D4EE6003E1D23 /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC8C1239D4EE6003E1D23 /* CouponModel.swift */; };
+		E60DC8C4239E44A1003E1D23 /* HomeTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC8C3239E44A1003E1D23 /* HomeTblCell.swift */; };
+		E60DC8C6239EB27D003E1D23 /* discount.png in Resources */ = {isa = PBXBuildFile; fileRef = E60DC8C5239EB27D003E1D23 /* discount.png */; };
 		E61796522387D6B60003C00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61796512387D6B60003C00D /* AppDelegate.swift */; };
-		E61796542387D6B60003C00D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61796532387D6B60003C00D /* ViewController.swift */; };
 		E61796572387D6B60003C00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61796552387D6B60003C00D /* Main.storyboard */; };
 		E61796592387D6BC0003C00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61796582387D6BC0003C00D /* Assets.xcassets */; };
 		E617965C2387D6BC0003C00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E617965A2387D6BC0003C00D /* LaunchScreen.storyboard */; };
+		E61796642389587D0003C00D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61796632389587D0003C00D /* GoogleService-Info.plist */; };
+		E6179666238958B60003C00D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6179665238958B60003C00D /* SignUpVC.swift */; };
+		E617966D23895E0C0003C00D /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617966C23895E0C0003C00D /* FirebaseViewModel.swift */; };
+		E63835EC2397EDC3006F9F7E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63835EB2397EDC3006F9F7E /* LoginVC.swift */; };
+		E6514C282399057400946456 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6514C272399057400946456 /* Validation.swift */; };
+		E6514C2B23993C0E00946456 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6514C2A23993C0E00946456 /* HomeVC.swift */; };
+		E6E00A6B238BFCF6002CA897 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E00A6A238BFCF6002CA897 /* FirebaseAuthManager.swift */; };
+		E6E00A6D238C0A96002CA897 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E00A6C238C0A96002CA897 /* User.swift */; };
+		FE51DD0EFE0139653F8E1BE9 /* Pods_CouponApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F213B4864E2E4E6782AD3DC /* Pods_CouponApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F213B4864E2E4E6782AD3DC /* Pods_CouponApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C580B9A5D26FC31B38FDBB45 /* Pods-CouponApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponApp.debug.xcconfig"; path = "Target Support Files/Pods-CouponApp/Pods-CouponApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC26561CDFCE8E856FE12905 /* Pods-CouponApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponApp.release.xcconfig"; path = "Target Support Files/Pods-CouponApp/Pods-CouponApp.release.xcconfig"; sourceTree = "<group>"; };
+		E60DC8B7239CD668003E1D23 /* redeem_points.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redeem_points.png; sourceTree = "<group>"; };
+		E60DC8B9239CD7CD003E1D23 /* 3507746-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3507746-32.png"; sourceTree = "<group>"; };
+		E60DC8BB239CD7D4003E1D23 /* 3507746-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3507746-48.png"; sourceTree = "<group>"; };
+		E60DC8BD239CDA2C003E1D23 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		E60DC8BF239CFF6A003E1D23 /* CouponVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponVC.swift; sourceTree = "<group>"; };
+		E60DC8C1239D4EE6003E1D23 /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
+		E60DC8C3239E44A1003E1D23 /* HomeTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTblCell.swift; sourceTree = "<group>"; };
+		E60DC8C5239EB27D003E1D23 /* discount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discount.png; sourceTree = "<group>"; };
 		E617964E2387D6B60003C00D /* CouponApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61796512387D6B60003C00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E61796532387D6B60003C00D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E61796562387D6B60003C00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E61796582387D6BC0003C00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E617965B2387D6BC0003C00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E617965D2387D6BC0003C00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61796632389587D0003C00D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6179665238958B60003C00D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E617966C23895E0C0003C00D /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		E63835EB2397EDC3006F9F7E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E6514C272399057400946456 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		E6514C29239918E300946456 /* CouponApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CouponApp.entitlements; sourceTree = "<group>"; };
+		E6514C2A23993C0E00946456 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E6E00A6A238BFCF6002CA897 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		E6E00A6C238C0A96002CA897 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE51DD0EFE0139653F8E1BE9 /* Pods_CouponApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EFF2AD0F01BCEA0C4106EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F213B4864E2E4E6782AD3DC /* Pods_CouponApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60DC8C7239EB9C7003E1D23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E60DC8B7239CD668003E1D23 /* redeem_points.png */,
+				E60DC8B9239CD7CD003E1D23 /* 3507746-32.png */,
+				E60DC8BB239CD7D4003E1D23 /* 3507746-48.png */,
+				E60DC8BD239CDA2C003E1D23 /* logout.png */,
+				E60DC8C5239EB27D003E1D23 /* discount.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		E61796452387D6B60003C00D = {
 			isa = PBXGroup;
 			children = (
 				E61796502387D6B60003C00D /* CouponApp */,
 				E617964F2387D6B60003C00D /* Products */,
+				F8D9D5B393F5C12AAEC1F81A /* Pods */,
+				7EFF2AD0F01BCEA0C4106EF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +112,67 @@
 		E61796502387D6B60003C00D /* CouponApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6514C29239918E300946456 /* CouponApp.entitlements */,
 				E61796512387D6B60003C00D /* AppDelegate.swift */,
-				E61796532387D6B60003C00D /* ViewController.swift */,
+				E6E00A69238BFCE3002CA897 /* DataManager */,
+				E6E00A6E238C0B5A002CA897 /* Model */,
+				E617966923895DB10003C00D /* ViewModel */,
+				E6872CA6238C0BC20098EA86 /* Controller */,
+				E60DC8C7239EB9C7003E1D23 /* Assets */,
 				E61796552387D6B60003C00D /* Main.storyboard */,
 				E61796582387D6BC0003C00D /* Assets.xcassets */,
 				E617965A2387D6BC0003C00D /* LaunchScreen.storyboard */,
 				E617965D2387D6BC0003C00D /* Info.plist */,
+				E61796632389587D0003C00D /* GoogleService-Info.plist */,
 			);
 			path = CouponApp;
+			sourceTree = "<group>";
+		};
+		E617966923895DB10003C00D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E617966C23895E0C0003C00D /* FirebaseViewModel.swift */,
+				E60DC8C1239D4EE6003E1D23 /* CouponModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6872CA6238C0BC20098EA86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6179665238958B60003C00D /* SignUpVC.swift */,
+				E63835EB2397EDC3006F9F7E /* LoginVC.swift */,
+				E6514C2A23993C0E00946456 /* HomeVC.swift */,
+				E60DC8C3239E44A1003E1D23 /* HomeTblCell.swift */,
+				E60DC8BF239CFF6A003E1D23 /* CouponVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6E00A69238BFCE3002CA897 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E6514C272399057400946456 /* Validation.swift */,
+				E6E00A6A238BFCF6002CA897 /* FirebaseAuthManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		E6E00A6E238C0B5A002CA897 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6E00A6C238C0A96002CA897 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8D9D5B393F5C12AAEC1F81A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C580B9A5D26FC31B38FDBB45 /* Pods-CouponApp.debug.xcconfig */,
+				DC26561CDFCE8E856FE12905 /* Pods-CouponApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E61796602387D6BC0003C00D /* Build configuration list for PBXNativeTarget "CouponApp" */;
 			buildPhases = (
+				B0A9252BCF06AE35142A1147 /* [CP] Check Pods Manifest.lock */,
 				E617964A2387D6B60003C00D /* Sources */,
 				E617964B2387D6B60003C00D /* Frameworks */,
 				E617964C2387D6B60003C00D /* Resources */,
+				690D4BFD8476E7A1D26812E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +209,11 @@
 				TargetAttributes = {
 					E617964D2387D6B60003C00D = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,20 +241,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				E617965C2387D6BC0003C00D /* LaunchScreen.storyboard in Resources */,
+				E60DC8BC239CD7D4003E1D23 /* 3507746-48.png in Resources */,
+				E60DC8BA239CD7CD003E1D23 /* 3507746-32.png in Resources */,
+				E60DC8C6239EB27D003E1D23 /* discount.png in Resources */,
+				E60DC8B8239CD668003E1D23 /* redeem_points.png in Resources */,
+				E61796642389587D0003C00D /* GoogleService-Info.plist in Resources */,
 				E61796592387D6BC0003C00D /* Assets.xcassets in Resources */,
 				E61796572387D6B60003C00D /* Main.storyboard in Resources */,
+				E60DC8BE239CDA2D003E1D23 /* logout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		690D4BFD8476E7A1D26812E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouponApp/Pods-CouponApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CouponApp/Pods-CouponApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A9252BCF06AE35142A1147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CouponApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E617964A2387D6B60003C00D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61796542387D6B60003C00D /* ViewController.swift in Sources */,
+				E60DC8C4239E44A1003E1D23 /* HomeTblCell.swift in Sources */,
+				E60DC8C0239CFF6A003E1D23 /* CouponVC.swift in Sources */,
+				E60DC8C2239D4EE6003E1D23 /* CouponModel.swift in Sources */,
+				E6E00A6B238BFCF6002CA897 /* FirebaseAuthManager.swift in Sources */,
+				E6514C2B23993C0E00946456 /* HomeVC.swift in Sources */,
+				E6E00A6D238C0A96002CA897 /* User.swift in Sources */,
+				E63835EC2397EDC3006F9F7E /* LoginVC.swift in Sources */,
+				E6179666238958B60003C00D /* SignUpVC.swift in Sources */,
 				E61796522387D6B60003C00D /* AppDelegate.swift in Sources */,
+				E617966D23895E0C0003C00D /* FirebaseViewModel.swift in Sources */,
+				E6514C282399057400946456 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +468,11 @@
 		};
 		E61796612387D6BC0003C00D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C580B9A5D26FC31B38FDBB45 /* Pods-CouponApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FT662WT4AZ;
 				INFOPLIST_FILE = CouponApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +487,11 @@
 		};
 		E61796622387D6BC0003C00D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC26561CDFCE8E856FE12905 /* Pods-CouponApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FT662WT4AZ;
 				INFOPLIST_FILE = CouponApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
